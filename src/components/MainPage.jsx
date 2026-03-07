@@ -42,31 +42,33 @@ function MainPage() {
               />
             </div>
             <div className="p-4 ">
-              <h2 className="text-base text-gray-200 mt-2 pb-6">
+              <h2 className="text-lg text-gray-500 font-semibold mt-2 pb-6">
                 Mastering Design Experience
               </h2>
-              <h1 className="text-4xl ">
-                About <span>Me</span>
+              <h1 className="text-4xl font-bold">
+                About <span className="text-red-400">Me</span>
               </h1>
-              <p className="my-8">
-                With over 10 years of immersive experience in the world of
-                design, I am your guide through the captivating realm of UI/UX
-                and Graphic & Web Design.
-              </p>
-              <p className="my-8">
-                My journey began with a passion for creating visually stunning
-                and intuitive interfaces, and it’s evolved into a relentless
-                pursuit of perfection in every pixel. From crafting
-                user-centered experiences to forging memorable brand identities,
-                I bring both expertise and artistry to the table.
-              </p>
-              <p className="my-8">
-                In this ever-evolving digital landscape, I’ve honed my skills to
-                adapt and innovate, ensuring your projects are always at the
-                forefront of design trends. My mission is clear: to elevate your
-                brand, engage your audience, and transform your vision into a
-                compelling reality.
-              </p>
+              <div className="font-sans text-base">
+                <p className="my-8">
+                  With over 10 years of immersive experience in the world of
+                  design, I am your guide through the captivating realm of UI/UX
+                  and Graphic & Web Design.
+                </p>
+                <p className="my-8">
+                  My journey began with a passion for creating visually stunning
+                  and intuitive interfaces, and it’s evolved into a relentless
+                  pursuit of perfection in every pixel. From crafting
+                  user-centered experiences to forging memorable brand
+                  identities, I bring both expertise and artistry to the table.
+                </p>
+                <p className="my-8">
+                  In this ever-evolving digital landscape, I’ve honed my skills
+                  to adapt and innovate, ensuring your projects are always at
+                  the forefront of design trends. My mission is clear: to
+                  elevate your brand, engage your audience, and transform your
+                  vision into a compelling reality.
+                </p>
+              </div>
             </div>
           </div>
         </div>
